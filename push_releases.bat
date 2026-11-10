@@ -1,6 +1,6 @@
 @echo off
 echo Pushing engines-releases subtree...
-"C:\Program Files\SmartGit\git\bin\git.exe" subtree push --prefix=engines-releases engines-releases main
+"C:\Program Files\Git\bin\git.exe" subtree push --prefix=engines-releases engines-releases main
 echo.
 echo Done!
 pause
